@@ -107,6 +107,7 @@ function App() {
     updatePlayer(0);
     audioPlayer.current.addEventListener("timeupdate", timeUpdate);
     audioPlayer.current.addEventListener("ended", ended);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
