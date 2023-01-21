@@ -85,6 +85,9 @@ body {
   border-radius: 50px;
   box-shadow: 5px 5px 10px #aaaaaa, -5px -5px 10px #ffffff;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .player-buttons .btn-activated {
   background: linear-gradient(145deg, #f0f0f0, #cacaca);
@@ -96,8 +99,6 @@ body {
 }
 .player-buttons .btn.btn-prev i {
   display: inline-block;
-  margin-top: 2px;
-  margin-right: 2px;
 }
 .player-buttons .btn.btn-play {
   font-size: 36px;
@@ -107,16 +108,12 @@ body {
 }
 .player-buttons .btn.btn-play i {
   display: inline-block;
-  margin-top: 4px;
-  margin-left: 2px;
   background: linear-gradient(to right, #5232c1, #15f1f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .player-buttons .btn.btn-next i {
   display: inline-block;
-  margin-top: 2px;
-  margin-left: 2px;
 }
 .player-buttons .dropdown {
   position: relative;
@@ -163,10 +160,6 @@ body {
   .player-buttons .btn {
     width: 42px;
     height: 42px;
-  }
-  .player-buttons .btn.btn-play {
-    width: 56px;
-    height: 56px;
   }
   .player-buttons .dropdown-content {
     left: 4px;
